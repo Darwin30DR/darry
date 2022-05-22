@@ -1,0 +1,96 @@
+.style-switcher{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid var(--var-color-titulo-h4);
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+}
+.style-switcher.open{
+    transform: translatex(-25px);
+}
+.style-switcher .s-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    right: 100%;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+.style-switcher .s-icon i{
+    line-height: 40px;
+    background: var(--var-color-titulo-h1);
+    box-shadow: 0 0 5px var(--var-color-sombra-btn);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+.style-switcher .s-icon i:active{
+    background: rgb(0, 0, 0);
+}
+.style-switcher .style-switcher-toggler{
+    top: 0;
+}
+.style-switcher .day-night{
+    top: 55px;
+}
+.style-switcher h4{
+    margin: 0 0 10px;
+    color: var(--var-color-titulo-h4);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.style-switcher .colors{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+}
+.style-switcher .colors span{
+    /* display: inline-block; */
+    height: 30px;
+    width: 30px;
+
+    border-radius: 50%;
+}
+.colors span{
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.color1{
+    background: hsl(253, 100%, 38%);
+    border-radius: 100%;
+}
+.color2{
+    background: hsl(307, 100%, 50%);
+    border-radius: 100%;
+}
+.color3{
+    background: hsl(58, 100%, 50%);
+    border-radius: 100%;
+}
+.color4{
+    background: hsl(0, 100%, 50%);
+    border-radius: 100%;
+}
+.color5{
+    background: hsl(283, 100%, 50%);
+    border-radius: 100%;
+}
+
