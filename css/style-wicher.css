@@ -61,7 +61,7 @@
     /* display: inline-block; */
     height: 30px;
     width: 30px;
-
+    /* border: 2px solid black; */
     border-radius: 50%;
 }
 .colors span{
@@ -76,21 +76,42 @@
 .color1{
     background: hsl(253, 100%, 38%);
     border-radius: 100%;
+    transition: .4s all;
 }
 .color2{
     background: hsl(307, 100%, 50%);
     border-radius: 100%;
+    transition: .4s all;
 }
 .color3{
-    background: hsl(58, 100%, 50%);
+    background: hsl(44, 100%, 50%);
     border-radius: 100%;
+    transition: .4s all;
 }
 .color4{
     background: hsl(0, 100%, 50%);
     border-radius: 100%;
+    transition: .4s all;
 }
 .color5{
     background: hsl(283, 100%, 50%);
     border-radius: 100%;
+    transition: .4s all;
 }
+.color1 span:hover{
+    transform: scale(1.4);
+}
+.color2 span:hover{
+    transform: scale(1.4);
+}
+.color3 span:hover{
+    transform: scale(1.4);
+}
+.color4 span:hover{
+    transform: scale(1.4);
+}
+.color5 span:hover{
+    transform: scale(1.4);
+}
+
 
